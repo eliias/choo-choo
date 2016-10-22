@@ -1,0 +1,13 @@
+body {
+  padding-top: 2em;
+}
+
+.wagons {
+  font-size: 4em;
+}
+
+.danger {
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+}

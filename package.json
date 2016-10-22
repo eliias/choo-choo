@@ -1,0 +1,24 @@
+{
+  "name": "choo-choo",
+  "version": "1.0.0",
+  "description": "choo (choo)",
+  "main": "src/client.js",
+  "scripts": {
+    "start": "budo src/client.js -p 8080 --pushstate --live --open -- -t es2020 -t sheetify/transform",
+    "test": "echo \"no tests\""
+  },
+  "keywords": [
+    "choo"
+  ],
+  "author": "Hannes Moser <hannes@impossiblearts.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2020": "^1.0.2",
+    "budo": "^9.2.1",
+    "choo": "^3.3.0",
+    "choo-log": "^2.0.1",
+    "es2020": "^1.1.9",
+    "node-emoji": "^1.4.1",
+    "sheetify": "^5.1.1"
+  }
+}
