@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+rm -rf dist/
+mkdir -p dist/
+
+NODE_ENV=production browserify \
+  -t envify \
+  -g yo-yoify \
+  -g unassertify \
+  -g es2020 \
+  -g uglifyify \
+  -g bulkify \
+  | uglifyjs

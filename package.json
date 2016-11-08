@@ -4,6 +4,7 @@
   "description": "choo (choo)",
   "main": "src/client.js",
   "scripts": {
+    "build": "./bin/build",
     "start": "budo src/client.js -p 8080 --pushstate --live --open -- -t es2020 -t sheetify/transform",
     "test": "echo \"no tests\""
   },
@@ -15,10 +16,15 @@
   "devDependencies": {
     "babel-preset-es2020": "^1.0.2",
     "budo": "^9.2.1",
+    "bulkify": "^1.4.2",
     "choo": "^3.3.0",
     "choo-log": "^2.0.1",
+    "envify": "^3.4.1",
     "es2020": "^1.1.9",
     "node-emoji": "^1.4.1",
-    "sheetify": "^5.1.1"
+    "sheetify": "^5.1.1",
+    "uglifyify": "^3.0.4",
+    "unassertify": "^2.0.3",
+    "yo-yoify": "^3.4.1"
   }
 }

@@ -1,5 +1,5 @@
-const log = require('choo-log')
 const choo = require('choo')
+const log = require('choo-log')
 require('./styles')
 
 const app = choo()
