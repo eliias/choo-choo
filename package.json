@@ -21,7 +21,7 @@
     "choo-log": "^5.0.0",
     "envify": "^4.0.0",
     "es2020": "^1.1.9",
-    "node-emoji": "^1.4.1",
+    "node-emoji": "^1.6.0",
     "sheetify": "^6.0.1",
     "uglifyify": "^4.0.0",
     "unassertify": "^2.0.3",
