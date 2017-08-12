@@ -15,15 +15,15 @@
   "license": "MIT",
   "devDependencies": {
     "babel-preset-es2020": "^1.0.2",
-    "budo": "^9.2.1",
+    "budo": "^10.0.0",
     "bulkify": "^1.4.2",
     "choo": "^5.0.0",
-    "choo-log": "^3.0.0",
+    "choo-log": "^7.1.0",
     "envify": "^4.0.0",
     "es2020": "^1.1.9",
     "node-emoji": "^1.4.1",
     "sheetify": "^6.0.1",
-    "uglifyify": "^3.0.4",
+    "uglifyify": "^4.0.0",
     "unassertify": "^2.0.3",
     "yo-yoify": "^3.4.1"
   }
