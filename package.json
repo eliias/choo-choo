@@ -24,7 +24,7 @@
     "node-emoji": "^1.4.1",
     "sheetify": "^6.0.1",
     "uglifyify": "^4.0.0",
-    "unassertify": "^2.0.3",
+    "unassertify": "^2.0.5",
     "yo-yoify": "^4.0.0"
   }
 }
